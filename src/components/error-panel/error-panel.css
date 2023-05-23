@@ -1,0 +1,20 @@
+.list-group-error {
+    color: red;
+    background-color: #fff;
+    line-height: 57px;
+    border: 1px solid  #3d5a80;
+   animation: error 1s;
+}
+
+@keyframes error {
+    from {transform:  translateX(-500px);
+          opacity: 0;}
+    to {transform:  translateX(0);
+        opacity: 1;}
+}
+
+/* .list-group-error {
+    background-color: #fff;
+    opacity: 1;
+    transform: translateX(0px);
+} */
